@@ -13,6 +13,14 @@
 		2389F63026A02A14000D0BE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2389F62E26A02A14000D0BE5 /* Main.storyboard */; };
 		2389F63226A02A15000D0BE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2389F63126A02A15000D0BE5 /* Assets.xcassets */; };
 		2389F63526A02A15000D0BE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2389F63326A02A15000D0BE5 /* LaunchScreen.storyboard */; };
+		2389F64426A02E70000D0BE5 /* puppies-004.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F63D26A02E70000D0BE5 /* puppies-004.jpeg */; };
+		2389F64526A02E70000D0BE5 /* puppies-005.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F63E26A02E70000D0BE5 /* puppies-005.jpeg */; };
+		2389F64626A02E70000D0BE5 /* puppies-002.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F63F26A02E70000D0BE5 /* puppies-002.jpeg */; };
+		2389F64726A02E70000D0BE5 /* puppies-003.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F64026A02E70000D0BE5 /* puppies-003.jpeg */; };
+		2389F64826A02E70000D0BE5 /* puppies-001.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F64126A02E70000D0BE5 /* puppies-001.jpeg */; };
+		2389F64926A02E70000D0BE5 /* puppies-006.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F64226A02E70000D0BE5 /* puppies-006.jpeg */; };
+		2389F64A26A02E70000D0BE5 /* puppies-007.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2389F64326A02E70000D0BE5 /* puppies-007.jpeg */; };
+		2389F64C26A03689000D0BE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2389F64B26A03689000D0BE5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		2389F63126A02A15000D0BE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2389F63426A02A15000D0BE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2389F63626A02A15000D0BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2389F63D26A02E70000D0BE5 /* puppies-004.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-004.jpeg"; sourceTree = "<group>"; };
+		2389F63E26A02E70000D0BE5 /* puppies-005.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-005.jpeg"; sourceTree = "<group>"; };
+		2389F63F26A02E70000D0BE5 /* puppies-002.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-002.jpeg"; sourceTree = "<group>"; };
+		2389F64026A02E70000D0BE5 /* puppies-003.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-003.jpeg"; sourceTree = "<group>"; };
+		2389F64126A02E70000D0BE5 /* puppies-001.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-001.jpeg"; sourceTree = "<group>"; };
+		2389F64226A02E70000D0BE5 /* puppies-006.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-006.jpeg"; sourceTree = "<group>"; };
+		2389F64326A02E70000D0BE5 /* puppies-007.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "puppies-007.jpeg"; sourceTree = "<group>"; };
+		2389F64B26A03689000D0BE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +75,28 @@
 				2389F62826A02A14000D0BE5 /* AppDelegate.swift */,
 				2389F62A26A02A14000D0BE5 /* SceneDelegate.swift */,
 				2389F62C26A02A14000D0BE5 /* ViewController.swift */,
+				2389F64B26A03689000D0BE5 /* DetailViewController.swift */,
 				2389F62E26A02A14000D0BE5 /* Main.storyboard */,
 				2389F63126A02A15000D0BE5 /* Assets.xcassets */,
 				2389F63326A02A15000D0BE5 /* LaunchScreen.storyboard */,
 				2389F63626A02A15000D0BE5 /* Info.plist */,
+				2389F63C26A02E70000D0BE5 /* ShowLocalPicsContent */,
 			);
 			path = "Project001-ShowLocalPics";
+			sourceTree = "<group>";
+		};
+		2389F63C26A02E70000D0BE5 /* ShowLocalPicsContent */ = {
+			isa = PBXGroup;
+			children = (
+				2389F63D26A02E70000D0BE5 /* puppies-004.jpeg */,
+				2389F63E26A02E70000D0BE5 /* puppies-005.jpeg */,
+				2389F63F26A02E70000D0BE5 /* puppies-002.jpeg */,
+				2389F64026A02E70000D0BE5 /* puppies-003.jpeg */,
+				2389F64126A02E70000D0BE5 /* puppies-001.jpeg */,
+				2389F64226A02E70000D0BE5 /* puppies-006.jpeg */,
+				2389F64326A02E70000D0BE5 /* puppies-007.jpeg */,
+			);
+			path = ShowLocalPicsContent;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +156,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2389F64826A02E70000D0BE5 /* puppies-001.jpeg in Resources */,
+				2389F64726A02E70000D0BE5 /* puppies-003.jpeg in Resources */,
+				2389F64A26A02E70000D0BE5 /* puppies-007.jpeg in Resources */,
 				2389F63526A02A15000D0BE5 /* LaunchScreen.storyboard in Resources */,
 				2389F63226A02A15000D0BE5 /* Assets.xcassets in Resources */,
+				2389F64526A02E70000D0BE5 /* puppies-005.jpeg in Resources */,
+				2389F64926A02E70000D0BE5 /* puppies-006.jpeg in Resources */,
 				2389F63026A02A14000D0BE5 /* Main.storyboard in Resources */,
+				2389F64426A02E70000D0BE5 /* puppies-004.jpeg in Resources */,
+				2389F64626A02E70000D0BE5 /* puppies-002.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +179,7 @@
 				2389F62D26A02A14000D0BE5 /* ViewController.swift in Sources */,
 				2389F62926A02A14000D0BE5 /* AppDelegate.swift in Sources */,
 				2389F62B26A02A14000D0BE5 /* SceneDelegate.swift in Sources */,
+				2389F64C26A03689000D0BE5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
